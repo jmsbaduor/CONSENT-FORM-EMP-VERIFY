@@ -1,0 +1,252 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://wenzhixin.net.cn/p/bootstrap-table/src/bootstrap-table.css" rel="stylesheet" type="text/css" />
+    
+    <link href="http://cdn.kendostatic.com/2014.1.318/styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="http://cdn.kendostatic.com/2014.1.318/styles/kendo.bootstrap.min.css" rel="stylesheet" />
+    <link href="http://protostrap.com/Assets/gv/css/gv.bootstrap-form.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet"> 
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    
+</head>
+
+<body>
+    <div class="container">
+    <div class="container-fluid">
+    <div class="row top-heading">
+	<h2>Candidate Consent Form</h2>
+        <p >Please provide information as required. Make sure all informations provided are credible</p>
+
+    </div>
+            <form action="../submit" id="formentry" class="form-horizontal" role="form" data-parsley-validate novalidate>
+                <div class="container-fluid shadow">
+                    <div class="row">
+                        <div id="valErr" class="row viewerror clearfix hidden">
+                            <div class="alert alert-danger">Oops! Seems there are some errors..</div>
+                        </div>
+                        <div id="valOk" class="row viewerror clearfix hidden">
+                            <div class="alert alert-success">Yay! ..</div>
+                        </div>
+                
+		</div><div class="form-group brdbot container">
+			    <h3>Personal Information</h3>
+			    <div class="controls col-sm-9">
+                    
+                <p id="field10" data-default-label="Header" data-default-is-header="true" data-control-type="header"></p><span id="errId2" class="error"></span></div>
+                
+		</div><div class="row"><div class="col-md-6"><div class="form-group">
+			    <label class="control-label" for="Surname">Surname<span class="req"> *</span></label>
+			    <div class="controls">
+                    
+                <input id="Surname" type="text" class="form-control k-textbox" data-role="text" required="required" data-parsley-errors-container="#errId3"><span id="errId3" class="error"></span></div>
+                
+		</div><div class="form-group">
+			    <label class="control-label" for="RedidentialAddress">Redidential Address</label>
+			    <div class="controls">
+                    
+                <input id="RedidentialAddress" type="text" class="form-control k-textbox" data-role="text" data-parsley-errors-container="#errId4"><span id="errId4" class="error"></span></div>
+                
+		</div></div><div class="col-md-6"><div class="form-group">
+			    <label class="control-label" for="OtherNames">Other names</label>
+			    <div class="controls">
+                    
+                <input id="OtherNames" type="text" class="form-control k-textbox" data-role="text" data-parsley-errors-container="#errId5"><span id="errId5" class="error"></span></div>
+                
+		</div><div class="form-group">
+			    <label class="control-label" for="field14">Date of Birth</label>
+			    <div class="controls">
+                    
+                <span class="k-widget k-datepicker k-header form-control" style=""><span class="k-picker-wrap k-state-default"><input id="field14" type="text" class="form-control k-input" data-role="date" role="textbox" aria-haspopup="true" aria-expanded="false" aria-owns="field14_dateview" aria-disabled="false" aria-readonly="false" aria-label="Current focused date is null" data-error-container="#errfield14" style="width: 100%;" data-parsley-errors-container="#errId6"><span unselectable="on" class="k-select" role="button" aria-controls="field14_dateview"><span unselectable="on" class="k-icon k-i-calendar">select</span></span></span></span><span id="errId6" class="error"></span></div>
+                
+		</div></div></div><div class="form-group brdbot container">
+			    <h3>Educational Information</h3>
+			    <div class="controls col-sm-9">
+                    
+                <p id="field15" data-default-label="Header" data-default-is-header="true" data-control-type="header"></p><span id="errId7" class="error"></span></div>
+                
+		</div><div class="row"><div class="col-md-3"><div class="form-group">
+			    <label class="control-label" for="Institution">Institution</label>
+			    <div class="controls">
+                    
+                <input id="Institution" type="text" class="form-control k-textbox" data-role="text" data-parsley-errors-container="#errId8"><span id="errId8" class="error"></span></div>
+                
+		</div></div><div class="col-md-3"><div class="form-group">
+			    <label class="control-label" for="ProgramRead">Program Read</label>
+			    <div class="controls">
+                    
+                <input id="ProgramRead" type="text" class="form-control k-textbox" data-role="text" data-parsley-errors-container="#errId9"><span id="errId9" class="error"></span></div>
+                
+		</div></div><div class="col-md-3"><div class="form-group">
+			    <label class="control-label" for="field19">Date Started</label>
+			    <div class="controls">
+                    
+                <span class="k-widget k-datepicker k-header form-control" style=""><span class="k-picker-wrap k-state-default"><input id="field19" type="text" class="form-control k-input" data-role="date" role="textbox" aria-haspopup="true" aria-expanded="false" aria-owns="field19_dateview" aria-disabled="false" aria-readonly="false" aria-label="Current focused date is null" data-error-container="#errfield19" style="width: 100%;" data-parsley-errors-container="#errId10"><span unselectable="on" class="k-select" role="button" aria-controls="field19_dateview"><span unselectable="on" class="k-icon k-i-calendar">select</span></span></span></span><span id="errId10" class="error"></span></div>
+                
+		</div></div><div class="col-md-3"><div class="form-group">
+			    <label class="control-label" for="field20">Date Completed</label>
+			    <div class="controls">
+                    
+                <span class="k-widget k-datepicker k-header form-control" style=""><span class="k-picker-wrap k-state-default"><input id="field20" type="text" class="form-control k-input" data-role="date" role="textbox" aria-haspopup="true" aria-expanded="false" aria-owns="field20_dateview" aria-disabled="false" aria-readonly="false" aria-label="Current focused date is null" data-error-container="#errfield20" style="width: 100%;" data-parsley-errors-container="#errId11"><span unselectable="on" class="k-select" role="button" aria-controls="field20_dateview"><span unselectable="on" class="k-icon k-i-calendar">select</span></span></span></span><span id="errId11" class="error"></span></div>
+                
+		</div></div></div><div class="form-group brdbot container">
+			    <h3>Employment Information</h3>
+			    <div class="controls col-sm-9">
+                    
+                <p id="field21" data-default-label="Header" data-default-is-header="true" data-control-type="header"></p><span id="errId12" class="error"></span></div>
+                
+		</div><div class="row"><div class="col-md-3"><div class="form-group">
+			    <label class="control-label" for="Company">Company</label>
+			    <div class="controls">
+                    
+                <input id="Company" type="text" class="form-control k-textbox" data-role="text" data-parsley-errors-container="#errId13"><span id="errId13" class="error"></span></div>
+                
+		</div></div><div class="col-md-3"><div class="form-group">
+			    <label class="control-label" for="Address">Address</label>
+			    <div class="controls">
+                    
+                <input id="Address" type="text" class="form-control k-textbox" data-role="text" data-parsley-errors-container="#errId14"><span id="errId14" class="error"></span></div>
+                
+		</div></div><div class="col-md-3"><div class="form-group">
+			    <label class="control-label" for="field24">Date Started</label>
+			    <div class="controls">
+                    
+                <span class="k-widget k-datepicker k-header form-control" style=""><span class="k-picker-wrap k-state-default"><input id="field24" type="text" class="form-control k-input" data-role="date" role="textbox" aria-haspopup="true" aria-expanded="false" aria-owns="field24_dateview" aria-disabled="false" aria-readonly="false" aria-label="Current focused date is null" data-error-container="#errfield24" style="width: 100%;" data-parsley-errors-container="#errId15"><span unselectable="on" class="k-select" role="button" aria-controls="field24_dateview"><span unselectable="on" class="k-icon k-i-calendar">select</span></span></span></span><span id="errId15" class="error"></span></div>
+                
+		</div></div><div class="col-md-3"><div class="form-group">
+			    <label class="control-label" for="field25">Date Completed</label>
+			    <div class="controls">
+                    
+                <span class="k-widget k-datepicker k-header form-control" style=""><span class="k-picker-wrap k-state-default"><input id="field25" type="text" class="form-control k-input" data-role="date" role="textbox" aria-haspopup="true" aria-expanded="false" aria-owns="field25_dateview" aria-disabled="false" aria-readonly="false" aria-label="Current focused date is null" data-error-container="#errfield25" style="width: 100%;" data-parsley-errors-container="#errId16"><span unselectable="on" class="k-select" role="button" aria-controls="field25_dateview"><span unselectable="on" class="k-icon k-i-calendar">select</span></span></span></span><span id="errId16" class="error"></span></div>
+                
+		</div></div></div><div class="form-group brdbot container">
+			    <h3>Certification</h3>
+			    <div class="controls col-sm-9">
+                    
+                <p id="field26" data-default-label="Header" data-default-is-header="true" data-control-type="header"></p><span id="errId17" class="error"></span></div>
+                
+		</div><div class="row"><div class="col-md-4"><div class="form-group">
+			    <label class="control-label" for="NameOfCertificate">Name of Certificate</label>
+			    <div class="controls">
+                    
+                <input id="NameOfCertificate" type="text" class="form-control k-textbox" data-role="text" data-parsley-errors-container="#errId18"><span id="errId18" class="error"></span></div>
+                
+		</div></div><div class="col-md-4"><div class="form-group">
+			    <label class="control-label" for="AwardedBy">Awarded By</label>
+			    <div class="controls">
+                    
+                <input id="AwardedBy" type="text" class="form-control k-textbox" data-role="text" data-parsley-errors-container="#errId19"><span id="errId19" class="error"></span></div>
+                
+		</div></div><div class="col-md-4"><div class="form-group">
+			    <label class="control-label" for="field29">Date Awarded</label>
+			    <div class="controls">
+                    
+                <span class="k-widget k-datepicker k-header form-control" style=""><span class="k-picker-wrap k-state-default"><input id="field29" type="text" class="form-control k-input" data-role="date" role="textbox" aria-haspopup="true" aria-expanded="false" aria-owns="field29_dateview" aria-disabled="false" aria-readonly="false" aria-label="Current focused date is null" data-error-container="#errfield29" style="width: 100%;" data-parsley-errors-container="#errId20"><span unselectable="on" class="k-select" role="button" aria-controls="field29_dateview"><span unselectable="on" class="k-icon k-i-calendar">select</span></span></span></span><span id="errId20" class="error"></span></div>
+                
+		</div></div></div><div class="form-group brdbot container">
+			    <h3>References</h3>
+			    <div class="controls col-sm-9">
+                    
+                <p id="field30" data-default-label="Header" data-default-is-header="true" data-control-type="header"></p><span id="errId21" class="error"></span></div>
+                
+		</div><div class="row"><div class="col-md-3"><div class="form-group">
+			    <label class="control-label" for="FullName">Full Name</label>
+			    <div class="controls">
+                    
+                <input id="FullName" type="text" class="form-control k-textbox" data-role="text" data-parsley-errors-container="#errId22"><span id="errId22" class="error"></span></div>
+                
+		</div></div><div class="col-md-3"><div class="form-group">
+			    <label class="control-label" for="EmailAddress">Email Address</label>
+			    <div class="controls">
+                    
+                <input id="EmailAddress" type="text" class="form-control k-textbox" data-role="text" data-parsley-errors-container="#errId23"><span id="errId23" class="error"></span></div>
+                
+		</div></div><div class="col-md-3"><div class="form-group">
+			    <label class="control-label" for="PhoneNumber">Phone number</label>
+			    <div class="controls">
+                    
+                <span class="k-widget k-numerictextbox form-control" style=""><span class="k-numeric-wrap k-state-default"><input type="text" class="k-formatted-value form-control k-input" tabindex="0" aria-disabled="false" aria-readonly="false" style="display: inline-block;" id="PhoneNumber" data-parsley-errors-container="#errId24"><input id="PhoneNumber" value="" type="text" class="form-control k-input" data-role="numeric" data-format="integer" role="spinbutton" aria-valuenow="" aria-disabled="false" aria-readonly="false" data-error-container="#errfield33" style="display: none;" data-parsley-min="0" data-parsley-errors-container="#errId24"><span class="k-select"><span unselectable="on" class="k-link"><span unselectable="on" class="k-icon k-i-arrow-n" title="Increase value">Increase value</span></span><span unselectable="on" class="k-link"><span unselectable="on" class="k-icon k-i-arrow-s" title="Decrease value">Decrease value</span></span></span></span></span><span id="errId24" class="error"></span></div>
+                
+		</div></div><div class="col-md-3"><div class="form-group">
+			    <label class="control-label" for="Address">Address</label>
+			    <div class="controls">
+                    
+                <input id="Address" type="text" class="form-control k-textbox" data-role="text" data-parsley-errors-container="#errId25"><span id="errId25" class="error"></span></div>
+                
+		</div></div></div><div class="form-group brdbot container" style="display: block;">
+			    <h3>Social Media</h3>
+			    <div class="controls col-sm-9">
+                    
+                <p id="field35" data-default-label="Header" data-default-is-header="true" data-control-type="header"></p><span id="errId26" class="error"></span></div>
+                
+		</div><div class="row" style="display: block;"><div class="col-md-4"><div class="form-group" style="display: block;">
+			    <label class="control-label" for="Platform">Platform</label>
+			    <div class="controls">
+                    
+                <select id="Platform" class="form-control" data-role="select" selected="selected" data-parsley-errors-container="#errId27">
+		  
+		<option value=""></option><option value="Facebook">Facebook</option><option value="LinkedIn">LinkedIn</option><option value="Twitter">Twitter</option><option value="Instagram">Instagram</option><option value="Google Plus">Google Plus</option></select><span id="errId27" class="error"></span></div>
+                
+		</div></div><div class="col-md-8"><div class="form-group">
+			    <label class="control-label" for="ProfileLink">Profile Link</label>
+			    <div class="controls">
+                    
+                <input id="ProfileLink" type="text" class="form-control k-textbox" data-role="text" data-parsley-errors-container="#errId28"><span id="errId28" class="error"></span></div>
+                
+		</div></div></div><div class="form-group brdbot container">
+			    <h3>Agreement</h3>
+			    <div class="controls col-sm-9">
+                    
+                <p id="field45" data-default-label="Header" data-default-is-header="true" data-control-type="header"></p><span id="errId29" class="error"></span></div>
+                
+		</div><div class="form-group" style="display: block;">
+			    <p>I hereby authorize Gavac Business Solutions and its designated agents and representatives to conduct a comprehensive review of my background causing a consumer report and/or an investigative consumer report to be generated for employment and/or volunteer purposes. I understand that the scope of the consumer report/ investigative consumer report may include, but is not limited to the following areas: verification of social security number; credit reports, current and previous residences; employment history, education background, character references, civil and criminal history records from any criminal justice agency; driving records, birth records, and any other public records. 
+I further authorize any individual, company, firm, corporation, or public agency to divulge any and all information, verbal or written, pertaining to me, to Gavac Business Solutions or its agents. I further authorize the complete release of any records or data pertaining to me which the individual, company, firm, corporation, or public agency may have, to include information or data received from other sources. Gavac Business Solutions and its designated agents and representatives shall maintain all information received from this authorization in a confidential manner in order to protect the applicants personal information, including, but not limited to, addresses, social security numbers, and dates of birth. </p>
+			    </div><div class="form-group">
+			    <div class="controls"> <label class="checkbox-inline" for="checkbox57"><input type="checkbox" value="" id="checkbox57" name="field54" checked="checked" required="required" data-parsley-errors-container="#errId30"><label>I Agree <span class="req"> *</span></label></label><span id="errId30" class="error"></span></div>
+                
+		</div>
+                    </div>
+                </div>
+		<div class="form-group group-inline container">	    
+		<button id="button62" type="button" class="btn btn-lg btn-success emp-submit">Submit</button></div></div>
+                </div>
+		<br>
+            </form>
+	    
+        </div>
+	
+    </div>
+    
+    </div>
+    
+
+
+
+    <script src="http://cdn.kendostatic.com/2014.1.318/js/jquery.min.js"></script>
+    <script src="http://protostrap.com/Assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="http://wenzhixin.net.cn/p/bootstrap-table/src/bootstrap-table.js" type="text/javascript"></script>
+
+    <script src="http://protostrap.com/Assets/inputmask/js/jquery.inputmask.js" type="text/javascript"></script>
+    <script src="http://cdn.kendostatic.com/2014.1.318/js/kendo.all.min.js"></script>
+    <script src="http://protostrap.com/Assets/parsely/parsley.extend.js" type="text/javascript"></script>
+    <script src="http://protostrap.com/Assets/parsely/2.0/parsley.js" type="text/javascript"></script>
+    <script src="http://protostrap.com/Assets/download.js" type="text/javascript"></script>
+    <script src="http://protostrap.com/Assets/protostrap.js" type="text/javascript"></script>
+</body>
+</html>
